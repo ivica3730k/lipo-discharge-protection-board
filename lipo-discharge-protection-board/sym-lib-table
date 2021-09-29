@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name lipo-discharge-protection-board-rescue)(type Legacy)(uri ${KIPRJMOD}/lipo-discharge-protection-board-rescue.lib)(options "")(descr ""))
+)
