@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/ivica/PCB/lipo-discharge-protection-board/lipo-discharge-protection-board.sch</source>
-    <date>Sat 02 Oct 2021 12:40:54 BST</date>
+    <date>Mon 04 Oct 2021 23:51:18 BST</date>
     <tool>Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -19,17 +19,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="U2">
-      <value>OPAMP</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C7433</field>
-      </fields>
-      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6151DA15</tstamp>
-    </comp>
     <comp ref="D1">
       <value>3.3V</value>
       <footprint>Diode_SMD:D_MELF</footprint>
@@ -41,7 +30,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6151E343</tstamp>
     </comp>
-    <comp ref="R12">
+    <comp ref="R14">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -52,7 +41,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6151EB3A</tstamp>
     </comp>
-    <comp ref="R15">
+    <comp ref="R19">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -63,7 +52,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6151EDDF</tstamp>
     </comp>
-    <comp ref="Q1">
+    <comp ref="Q2">
       <value>AO3400A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>~</datasheet>
@@ -74,12 +63,12 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61520271</tstamp>
     </comp>
-    <comp ref="Q2">
+    <comp ref="Q4">
       <value>AO3401A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C15127</field>
+        <field name="LCSC">AO3401A</field>
       </fields>
       <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
       <sheetpath names="/" tstamps="/"/>
@@ -93,7 +82,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615244F3</tstamp>
     </comp>
-    <comp ref="R11">
+    <comp ref="R12">
       <value>2k2</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -104,7 +93,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615496A1</tstamp>
     </comp>
-    <comp ref="RV1">
+    <comp ref="RV2">
       <value>10k</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
       <datasheet>~</datasheet>
@@ -112,7 +101,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6154BC60</tstamp>
     </comp>
-    <comp ref="C9">
+    <comp ref="C11">
       <value>100n 50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -123,7 +112,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6158311A</tstamp>
     </comp>
-    <comp ref="R13">
+    <comp ref="R15">
       <value>47R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -134,7 +123,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6157DB61</tstamp>
     </comp>
-    <comp ref="R16">
+    <comp ref="R21">
       <value>3k3</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -160,7 +149,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61590C39</tstamp>
     </comp>
-    <comp ref="R9">
+    <comp ref="R10">
       <value>0R DNF</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -188,7 +177,7 @@
       <tstamp>6168F3D9</tstamp>
     </comp>
     <comp ref="R5">
-      <value>0R</value>
+      <value>0</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -260,7 +249,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61722371</tstamp>
     </comp>
-    <comp ref="R10">
+    <comp ref="R11">
       <value>0R DNF</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -268,7 +257,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615496AD</tstamp>
     </comp>
-    <comp ref="R14">
+    <comp ref="R18">
       <value>3k3</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -290,7 +279,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615B29CB</tstamp>
     </comp>
-    <comp ref="C3">
+    <comp ref="C1">
       <value>100n 50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -301,7 +290,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615B6251</tstamp>
     </comp>
-    <comp ref="C2">
+    <comp ref="C4">
       <value>10u 50V</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -312,7 +301,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615CC7DC</tstamp>
     </comp>
-    <comp ref="C1">
+    <comp ref="C2">
       <value>100n 50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -323,40 +312,40 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615CD2CE</tstamp>
     </comp>
-    <comp ref="Q4">
+    <comp ref="Q6">
       <value>AO3401A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C15127</field>
+        <field name="LCSC">AO3401A</field>
       </fields>
       <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615D36BE</tstamp>
-    </comp>
-    <comp ref="Q3">
-      <value>AO3401A</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C15127</field>
-      </fields>
-      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>615D4019</tstamp>
     </comp>
     <comp ref="Q5">
       <value>AO3401A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C15127</field>
+        <field name="LCSC">AO3401A</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D4019</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">AO3401A</field>
       </fields>
       <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615D4DA6</tstamp>
     </comp>
-    <comp ref="C4">
+    <comp ref="C6">
       <value>10u 50V</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -367,7 +356,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615F4D2F</tstamp>
     </comp>
-    <comp ref="C5">
+    <comp ref="C3">
       <value>10u 50V</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -378,7 +367,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615F510C</tstamp>
     </comp>
-    <comp ref="C6">
+    <comp ref="C5">
       <value>10u 50V</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -400,7 +389,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615F8ED6</tstamp>
     </comp>
-    <comp ref="C10">
+    <comp ref="C9">
       <value>10u 50V</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -451,6 +440,187 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61797F00</tstamp>
     </comp>
+    <comp ref="U3">
+      <value>OPAMP</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C7433</field>
+      </fields>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6151DA15</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6186F7AF</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6186F7A6</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>47R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17714</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6183A85B</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6183A847</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>OPAMP</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C7433</field>
+      </fields>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6183A810</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3_Handsoldering</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C71136</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618D81C3</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>EL3H7</value>
+      <footprint>lipo-discharge-protection-board:SOIC127P700X210-4N</footprint>
+      <datasheet>http://www.vishay.com/docs/83740/sfh617a.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C32565</field>
+      </fields>
+      <libsource lib="Isolator" part="SFH617A-1" description="Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618EED7A</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17630</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618FB257</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C2296</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6196679F</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17557</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619A5E96</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615BA4F3</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17513</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615FA958</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615FA95F</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">AO3401A</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615FA966</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C26010</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615FA97D</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C26010</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615FA9AC</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="Connector" part="Barrel_Jack">
@@ -480,6 +650,21 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -553,6 +738,23 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="Q_NMOS_GSD">
       <description>N-MOSFET transistor, gate/source/drain</description>
       <docs>~</docs>
@@ -610,6 +812,34 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Isolator" part="TLP785">
+      <aliases>
+        <alias>SFH617A-1</alias>
+        <alias>SFH617A-2</alias>
+        <alias>SFH617A-3</alias>
+        <alias>SFH617A-4</alias>
+        <alias>SFH617A-1X001</alias>
+        <alias>SFH617A-2X001</alias>
+        <alias>SFH617A-3X001</alias>
+        <alias>SFH617A-4X001</alias>
+      </aliases>
+      <description>DC Optocoupler, Vce 80V, CTR 50-200%, DIP4</description>
+      <docs>https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&amp;prodName=TLP785</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLP785</field>
+        <field name="Footprint">Package_DIP:DIP-4_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Mechanical" part="MountingHole">
       <description>Mounting Hole without connection</description>
       <docs>~</docs>
@@ -620,6 +850,34 @@
         <field name="Reference">H</field>
         <field name="Value">MountingHole</field>
       </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
     </libpart>
     <libpart lib="lipo-discharge-protection-board-rescue" part="XL6009_module-xl6009_module">
       <fields>
@@ -659,8 +917,14 @@
     <library logical="Device">
       <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
+    <library logical="Isolator">
+      <uri>/usr/share/kicad/library/Isolator.lib</uri>
+    </library>
     <library logical="Mechanical">
       <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
     </library>
     <library logical="lipo-discharge-protection-board-rescue">
       <uri>/home/ivica/PCB/lipo-discharge-protection-board/lipo-discharge-protection-board-rescue.lib</uri>
@@ -670,136 +934,201 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="C9" pin="1"/>
-      <node ref="R9" pin="2"/>
-      <node ref="J1" pin="1"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="J3" pin="1"/>
-      <node ref="R15" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="D1" pin="2"/>
-      <node ref="U2" pin="5"/>
-      <node ref="J2" pin="2"/>
-    </net>
-    <net code="2" name="Net-(R1-Pad1)">
-      <node ref="R4" pin="2"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="3" name="Net-(R2-Pad1)">
-      <node ref="R2" pin="1"/>
-      <node ref="R3" pin="1"/>
-    </net>
-    <net code="4" name="+BATT">
+    <net code="1" name="+VDC">
+      <node ref="U1" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R20" pin="1"/>
       <node ref="R13" pin="1"/>
-      <node ref="R16" pin="1"/>
-      <node ref="Q5" pin="3"/>
-      <node ref="C4" pin="1"/>
-      <node ref="R6" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="J3" pin="2"/>
-      <node ref="R12" pin="1"/>
       <node ref="C1" pin="1"/>
-      <node ref="R10" pin="2"/>
-      <node ref="C2" pin="1"/>
-      <node ref="Q4" pin="3"/>
       <node ref="Q3" pin="3"/>
-      <node ref="R2" pin="2"/>
-      <node ref="J2" pin="1"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="Q6" pin="2"/>
     </net>
-    <net code="5" name="Net-(R5-Pad1)">
+    <net code="2" name="Net-(R18-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="3" name="GND1">
+      <node ref="J5" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J5" pin="4"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="J3" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="5" name="Net-(Q2-Pad3)">
+      <node ref="R21" pin="2"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="Q7" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="7" name="Net-(Q3-Pad2)">
+      <node ref="U4" pin="1"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="8" name="Net-(Q1-Pad3)">
+      <node ref="Q3" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="11" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="12" name="Net-(D2-Pad2)">
+      <node ref="U4" pin="3"/>
+      <node ref="R23" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="13" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="14" name="Net-(R16-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C10-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="16" name="Net-(RV1-Pad3)">
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="17" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C11-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="20" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="21" name="Net-(Q2-Pad1)">
+      <node ref="R18" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="22" name="Net-(RV2-Pad3)">
+      <node ref="RV2" pin="3"/>
+    </net>
+    <net code="23" name="Net-(R5-Pad1)">
       <node ref="R8" pin="2"/>
       <node ref="R5" pin="1"/>
     </net>
-    <net code="6" name="Net-(R6-Pad1)">
+    <net code="24" name="Net-(R6-Pad1)">
       <node ref="R6" pin="1"/>
       <node ref="R7" pin="1"/>
     </net>
-    <net code="7" name="Net-(Q1-Pad1)">
-      <node ref="R15" pin="1"/>
-      <node ref="R14" pin="2"/>
-      <node ref="Q1" pin="1"/>
-    </net>
-    <net code="8" name="+VDC">
-      <node ref="Q5" pin="2"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="U1" pin="1"/>
-      <node ref="Q4" pin="2"/>
-    </net>
-    <net code="9" name="Net-(Q1-Pad3)">
-      <node ref="Q3" pin="1"/>
-      <node ref="Q1" pin="3"/>
-      <node ref="Q2" pin="1"/>
-      <node ref="Q5" pin="1"/>
-      <node ref="Q4" pin="1"/>
-      <node ref="R16" pin="2"/>
-    </net>
-    <net code="10" name="Net-(R14-Pad1)">
-      <node ref="U2" pin="3"/>
-      <node ref="R14" pin="1"/>
-    </net>
-    <net code="11" name="Net-(R11-Pad2)">
-      <node ref="R11" pin="2"/>
-      <node ref="R9" pin="1"/>
-    </net>
-    <net code="12" name="Net-(R11-Pad1)">
-      <node ref="R4" pin="1"/>
-      <node ref="R11" pin="1"/>
-      <node ref="R7" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="U2" pin="1"/>
-      <node ref="RV1" pin="2"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="13" name="Net-(C9-Pad2)">
-      <node ref="C9" pin="2"/>
-      <node ref="R13" pin="2"/>
-      <node ref="U2" pin="4"/>
-    </net>
-    <net code="14" name="Net-(D1-Pad1)">
+    <net code="25" name="Net-(R10-Pad1)">
       <node ref="R12" pin="2"/>
-      <node ref="U2" pin="2"/>
-      <node ref="D1" pin="1"/>
-    </net>
-    <net code="15" name="Net-(RV1-Pad3)">
-      <node ref="RV1" pin="3"/>
-    </net>
-    <net code="16" name="Net-(R10-Pad1)">
-      <node ref="RV1" pin="1"/>
       <node ref="R10" pin="1"/>
     </net>
-    <net code="17" name="GND1">
-      <node ref="C10" pin="2"/>
-      <node ref="U1" pin="4"/>
-      <node ref="C8" pin="2"/>
-      <node ref="J5" pin="3"/>
-      <node ref="J5" pin="4"/>
-      <node ref="J4" pin="3"/>
-      <node ref="J4" pin="4"/>
-      <node ref="C7" pin="2"/>
+    <net code="26" name="+BATT">
+      <node ref="R6" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R15" pin="1"/>
     </net>
-    <net code="18" name="VCC1">
+    <net code="27" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="28" name="Net-(R12-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="RV2" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="29" name="Net-(R2-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="30" name="VCC1">
+      <node ref="C7" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
       <node ref="J4" pin="2"/>
       <node ref="J4" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="J5" pin="2"/>
-      <node ref="J5" pin="1"/>
       <node ref="U1" pin="3"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C8" pin="1"/>
     </net>
   </nets>
 </export>

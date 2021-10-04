@@ -1,0 +1,47 @@
+Designator,Val,Package, Mid X ,Mid Y,Rotation,Layer
+ALARM,LED,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,88.75,-92,0,top
+C1,100n 50V,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,90.25,-71,180,top
+C2,100n 50V,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,22,-71.5,270,top
+C3,10u 50V,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,89.5,-74.75,180,top
+C4,10u 50V,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,26,-72,270,top
+C5,10u 50V,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,89.5,-78.75,180,top
+C6,10u 50V,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,30.25,-72,270,top
+C7,100n 50V,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,45,-49.9625,270,top
+C8,10u 50V,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,23.75,-46,270,top
+C9,10u 50V,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,28.75,-46,270,top
+C10,100n 50V,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,75,-81,180,top
+C11,100n 50V,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,49.5,-73.5,90,top
+D1,3.3V,D_MELF,58.25,-80.75,0,top
+Q1,AO3400A,SOT-23,81.75,-84.25,90,top
+Q2,AO3400A,SOT-23,61.25,-73.5,90,top
+Q3,AO3401A,SOT-23,81.75,-80.25,90,top
+Q4,AO3401A,SOT-23,82.75,-73.75,90,top
+Q5,AO3401A,SOT-23,71.75,-73.75,90,top
+Q6,AO3401A,SOT-23,77.25,-73.75,90,top
+Q7,AO3401A,SOT-23,66.5,-73.75,90,top
+R1,0R DNF,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,30.75,-92.75,270,top
+R2,0R DNF,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,39.25,-92.75,270,top
+R3,5k6,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,34.5,-82.75,90,top
+R4,5k1,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,30.75,-82.75,270,top
+R5,0,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,51,-92.75,270,top
+R6,0R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,59.5,-92.75,270,top
+R7,4k7,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,41.75,-82.75,90,top
+R8,2k2,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,38.25,-82.75,270,top
+R9,2k2,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,72.25,-87.5,180,top
+R10,0R DNF,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,71.25,-92.75,270,top
+R11,0R DNF,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,79.75,-92.75,270,top
+R12,2k2,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,45.5,-82.75,270,top
+R13,47R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,65.5,-77.75,270,top
+R14,10k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,36,-73.5,270,top
+R15,47R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,54.25,-73.5,270,top
+R16,3k3,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,75.25,-84,270,top
+R17,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,77.25,-87.75,270,top
+R18,3k3,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,56.75,-77.25,0,top
+R19,1k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,61.25,-77.25,0,top
+R20,3k3,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,76.5,-78.75,0,top
+R21,3k3,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,57.75,-73.5,270,top
+R22,220R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,83.75,-91,270,top
+R23,330R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,93,-83.6,270,top
+U2,OPAMP,SOIC-8_3.9x4.9mm_P1.27mm,69,-83.5,180,top
+U3,OPAMP,SOIC-8_3.9x4.9mm_P1.27mm,42.75,-75.5,180,top
+U4,L7805,SOT-89-3_Handsoldering,87.8,-84.3,180,top
