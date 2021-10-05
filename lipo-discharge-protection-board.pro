@@ -1,4 +1,4 @@
-update=Tue 05 Oct 2021 00:11:22 BST
+update=Tue 05 Oct 2021 01:18:42 BST
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ LastNetListRead=lipo-discharge-protection-board.net
 CopperLayerCount=4
 BoardThickness=1.6002
 AllowMicroVias=0
-AllowBlindVias=0
+AllowBlindVias=1
 RequireCourtyardDefinitions=1
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.127
@@ -78,7 +78,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=Front
 Type=0
